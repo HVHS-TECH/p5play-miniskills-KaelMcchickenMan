@@ -11,10 +11,10 @@ function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
 	Rectangle = new Sprite(99, 15, 25, 25);
-Rectangle.color = '200, 155, 55';
+Rectangle.color = 'rgb(0, 255, 0)';
 Circle = new Sprite(75, 75, 25);
 
-Circle.color = '200, 155, 55';	
+Circle.color = 'rgb(131, 79, 255)';	
 Rectangle.rotationSpeed = 2;
 
 Rectangle.vel.x = 0.25;
