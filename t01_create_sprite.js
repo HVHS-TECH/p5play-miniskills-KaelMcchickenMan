@@ -9,7 +9,12 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
+cnv = new Canvas(w, h);
+	Rectangle = new Sprite(15, 15, 25, 25);
+Rectangle.color = 'ccc';
+Circle = new Sprite(75, 75, 25);
 
+Circle.color = 'ccc';
 }
 	
 /*******************************************************/
@@ -17,6 +22,7 @@ function setup() {
 /*******************************************************/
 function draw() {
 	
+background('ccc'); 
 }
 
 /*******************************************************/
