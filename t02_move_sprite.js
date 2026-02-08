@@ -17,7 +17,7 @@ Circle = new Sprite(75, 75, 25);
 Circle.color = '200, 155, 55';	
 Rectangle.rotationSpeed = 2;
 
-Rectangle.vel.x = 2;
+Rectangle.vel.x = 0.25;
 }
 	
 /*******************************************************/
