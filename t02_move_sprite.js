@@ -9,14 +9,22 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
+cnv = new Canvas(700, 700);
+	Rectangle = new Sprite(99, 15, 25, 25);
+Rectangle.color = '200, 155, 55';
+Circle = new Sprite(75, 75, 25);
 
+Circle.color = '200, 155, 55';	
+Rectangle.rotationSpeed = 2;
+
+Rectangle.vel.x = 2;
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	
+	background('ccc'); 
 }
 
 /*******************************************************/
