@@ -18,9 +18,9 @@ Circle.color = '200, 155, 55';
 Rectangle.rotationSpeed = 2;
 
 Rectangle.vel.x = 0.25;
-Rectangle.vel.y = -2;
+Rectangle.vel.y = 8;
 Circle.vel.x = 2;
-Circle.vel.y = -8;
+Circle.vel.y = 8;
 }
 	
 /*******************************************************/
