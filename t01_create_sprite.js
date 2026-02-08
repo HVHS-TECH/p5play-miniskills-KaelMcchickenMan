@@ -10,7 +10,7 @@
 function setup() {
 	console.log("setup: ");
 cnv = new Canvas(windowWidth, windowHeight);
-	Rectangle = new Sprite(0, 15, 25, 25);
+	Rectangle = new Sprite(99, 15, 25, 25);
 Rectangle.color = '200, 155, 55';
 Circle = new Sprite(75, 75, 25);
 
