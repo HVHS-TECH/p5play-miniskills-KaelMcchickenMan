@@ -22,7 +22,7 @@ Tomato.color = 'rgb(243, 158, 0)';
 Tomato2 = new Sprite(150, 250, 100,75, 's');
 
 Tomato2.color = 'rgb(99, 92, 78)';
-Floor = new Sprite(100, 200, 100,2, 's');
+Floor = new Sprite(100, 200, 100,2, 'k');
 
 Floor.color = 'rgb(104, 82, 41)';
 Floor2 = new Sprite(15, 200, 2,180, 's');
