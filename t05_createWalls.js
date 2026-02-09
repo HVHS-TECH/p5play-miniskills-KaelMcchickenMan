@@ -44,7 +44,7 @@ Tomato.rotationSpeed = 2;
 Floor.rotationSpeed = 4;
 Floor.friction = 2;
 Tomato.bounciness = 0.96;	
-
+Rectangle.bounciness = 0.96;
 Rectangle.rotationSpeed = 2;
 
 Rectangle.vel.x = 0.25;
