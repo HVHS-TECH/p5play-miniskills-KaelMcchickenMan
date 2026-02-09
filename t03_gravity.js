@@ -19,18 +19,7 @@ Circle.color = 'rgb(131, 79, 255)';
 Tomato = new Sprite(150, 50, 25,75, 'd');
 
 Tomato.color = 'rgb(243, 158, 0)';
-Tomato2 = new Sprite(150, 250, 100,75, 's');
 
-Tomato2.color = 'rgb(99, 92, 78)';
-Floor = new Sprite(100, 200, 100,2, 's');
-
-Floor.color = 'rgb(104, 82, 41)';
-Floor2 = new Sprite(15, 200, 2,180, 's');
-
-Floor2.color = 'rgb(148, 108, 223)';
-Floor3 = new Sprite(200, 75, 2,180, 's');
-
-Floor3.color = 'rgb(148, 108, 223)';
 Tomato.rotationSpeed = 2;	
 Tomato.bounciness = 0.96;	
 Rectangle.rotationSpeed = 2;
