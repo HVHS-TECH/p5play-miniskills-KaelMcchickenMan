@@ -32,7 +32,8 @@ Floor3 = new Sprite(200, 75, 2,180, 's');
 
 Floor.color = 'rgb(148, 108, 223)';
 Tomato.rotationSpeed = 2;	
-Floor.rotationSpeed = 12;
+Floor.rotationSpeed = 4;
+Floor.friction = 2;
 Tomato.bounciness = 0.96;	
 Rectangle.rotationSpeed = 2;
 
