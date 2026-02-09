@@ -11,11 +11,11 @@ function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
 world.gravity.y = 3;
-wallLH  = new Sprite(0, 500/2, 8, 500, 'k');
+wallLH  = new Sprite(0, 350, 8, 500, 'k');
 
 wallLH.color = 'rgb(0, 0, 0)';
 
-wallRH  = new Sprite(700, 500/2, 8, 500, 'k');
+wallRH  = new Sprite(700, 350, 8, 500, 'k');
 
 wallTop = new Sprite(0, 500/2, 8, 500, 'k');
 
