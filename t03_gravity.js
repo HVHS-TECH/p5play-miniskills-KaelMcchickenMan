@@ -16,7 +16,7 @@ Rectangle.color = 'rgb(0, 255, 0)';
 Circle = new Sprite(75, 75, 25);
 
 Circle.color = 'rgb(131, 79, 255)';
-Tomato = new Sprite(x, y, w, h, 'd');
+Tomato = new Sprite(150, 50, 25,75, 'd');
 
 Tomato.color = 'ccc';
 
