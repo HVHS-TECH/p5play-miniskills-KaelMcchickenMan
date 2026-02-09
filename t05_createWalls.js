@@ -11,15 +11,15 @@ function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
 world.gravity.y = 3;
-wallLH  = new Sprite(0, 200, 8, 200, 'k');
+wallLH  = new Sprite(0, 500/2, 8, 500, 'k');
 
 wallLH.color = 'rgb(0, 0, 0)';
 
-wallRH  = new Sprite(x, y, w, h, 'k');
+wallRH  = new Sprite(0, 500/2, 8, 500, 'k');
 
-wallTop = new Sprite(x, y, w, h, 'k');
+wallTop = new Sprite(0, 500/2, 8, 500, 'k');
 
-wallBot = new Sprite(x, y, w, h, 'k');
+wallBot = new Sprite(0, 500/2, 8, 500, 'k');
 	Rectangle = new Sprite(99, 15, 25, 25);
 Rectangle.color = 'rgb(0, 255, 0)';
 Circle = new Sprite(125, 25, 25);
