@@ -23,7 +23,7 @@ Floor = new Sprite(150, 200, 95,10, 's');
 
 Floor.color = 'rgb(243, 158, 0)';
 Tomato.rotationSpeed = 2;	
-Tomato.bounciness = 0.25;	
+Tomato.bounciness = 1;	
 Rectangle.rotationSpeed = 2;
 
 Rectangle.vel.x = 0.25;
