@@ -21,7 +21,10 @@ Tomato = new Sprite(150, 50, 25,75, 'd');
 Tomato.color = 'rgb(243, 158, 0)';
 Floor = new Sprite(150, 200, 95,10, 's');
 
-Floor.color = 'rgb(243, 158, 0)';
+Floor.color = 'rgb(104, 82, 41)';
+Floor2 = new Sprite(15, 200, 2,100, 's');
+
+Floor2.color = 'rgb(148, 108, 223)';
 Tomato.rotationSpeed = 2;	
 Tomato.bounciness = 0.75;	
 Rectangle.rotationSpeed = 2;
