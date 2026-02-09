@@ -13,7 +13,7 @@ cnv = new Canvas(700, 700);
 world.gravity.y = 3;
 	Rectangle = new Sprite(99, 15, 25, 25);
 Rectangle.color = 'rgb(0, 255, 0)';
-Circle = new Sprite(75, 25, 25);
+Circle = new Sprite(125, 25, 25);
 
 Circle.color = 'rgb(131, 79, 255)';
 Tomato = new Sprite(150, 50, 25,75, 'd');
