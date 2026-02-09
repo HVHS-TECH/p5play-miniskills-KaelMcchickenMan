@@ -19,7 +19,7 @@ wallRH  = new Sprite(700, 350, 8, 700, 'k');
 
 wallTop = new Sprite(0, 700/2, 700, 8, 'k');
 
-wallBot = new Sprite(0, 700/2, 700, 8, 'k');
+wallBot = new Sprite(350, 700, 700, 8, 'k');
 	Rectangle = new Sprite(99, 15, 25, 25);
 Rectangle.color = 'rgb(0, 255, 0)';
 Circle = new Sprite(125, 25, 25);
