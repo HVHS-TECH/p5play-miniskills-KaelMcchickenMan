@@ -9,14 +9,31 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
+cnv = new Canvas(700, 700);
+world.gravity.y = 3;
+	Rectangle = new Sprite(99, 15, 25, 25);
+Rectangle.color = 'rgb(0, 255, 0)';
+Circle = new Sprite(75, 75, 25);
 
+Circle.color = 'rgb(131, 79, 255)';
+Tomato = new Sprite(x, y, w, h, 'd');
+
+Tomato.color = 'ccc';
+
+Tomato.rotationSpeed = 2;	
+Rectangle.rotationSpeed = 2;
+
+Rectangle.vel.x = 0.25;
+Rectangle.vel.y = 0.1;
+Circle.vel.x = 2;
+Circle.vel.y = 8;
 }
 	
 /*******************************************************/
 // draw()
 /*******************************************************/
 function draw() {
-	
+	background('rgb(235, 95, 95)); 
 }
 
 /*******************************************************/
