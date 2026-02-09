@@ -18,7 +18,7 @@ Circle = new Sprite(75, 75, 25);
 Circle.color = 'rgb(131, 79, 255)';
 Tomato = new Sprite(150, 50, 25,75, 'd');
 
-Tomato.color = 'ccc';
+Tomato.color = 'rgb(243, 158, 0)';
 
 Tomato.rotationSpeed = 2;	
 Rectangle.rotationSpeed = 2;
