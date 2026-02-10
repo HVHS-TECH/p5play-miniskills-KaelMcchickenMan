@@ -65,19 +65,7 @@ Circle.vel.y = 0.05;
 /*******************************************************/
 function draw() {
 	background('rgb(235, 95, 95)');
-	for (i = 0; i < Alien; i++) {
-
-  Alien = new Sprite(150, 50, 25,75, 'd');
-
-  Alien.vel.x = randNum;
-
-  Alien.vel.y = randNum;
-
-  Alien.bounciness = 1;
-
-  Alien.friction = 0;
-
-}
+	
 }
 
 /*******************************************************/
