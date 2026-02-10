@@ -88,7 +88,7 @@ for (i = 0; i < 15; i++) {
   Alien2.friction = 0.25;
 
   Alien2Group.add(Alien2);
-  Alien2Group.collides(Alien, func2Call);
+  Alien2Group.collides(Alien, func3Call);
   
 }
 
@@ -108,7 +108,13 @@ function draw() {
 	_ssss.remove();
 
 	}
+function func3Call(Alien, _ssss) {
 
+	// Delete the alien which was hit
+
+	_ssss.remove();
+
+	}
 
 }
 
