@@ -72,7 +72,7 @@ Alien2 = new Sprite(150, 50, 10,10, 'd');
 
 for (i = 0; i < 15; i++) {
 
-  Alien = new Sprite(150, 50, 5,5, 'd');
+  Alien = new Sprite(500, 50, 5,5, 'd');
 
   Alien.vel.x = randNum;
 
