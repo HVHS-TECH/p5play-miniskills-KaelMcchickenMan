@@ -75,22 +75,7 @@ for (i = 0; i < 15; i++) {
   AlienGroup.collides(ball_1, func2Call);
   
 }
-for (i = 0; i < 15; i++) {
 
-  ball_1 = new Sprite(150, 50, 5,5, 'd');
-
-  ball_1.vel.x = randNum;
-
-  ball_1.vel.y = randNum;
-
-  ball_1.bounciness = 1;
-
-  ball_1.friction = 0.25;
-
-  ball_1Group.add(ball_1);
-  ball_1Group.collides(Alien, func3Call);
-  
-}
 function func2Call(_ball_1, _ssss) {
 
 // Delete the alien which was hit
@@ -98,13 +83,7 @@ function func2Call(_ball_1, _ssss) {
 _ssss.remove();
 
 }
-function func3Call(_Alien, _ssss) {
 
-// Delete the alien which was hit
-
-_ssss.remove();
-
-}
 }
 	
 /*******************************************************/
