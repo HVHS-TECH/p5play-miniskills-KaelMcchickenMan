@@ -60,9 +60,9 @@ for (i = 0; i < Alien; i++) {
 
   alien = new Sprite(Alien);
 
-  alien.vel.x = 3;
+  alien.vel.x = 847;
 
-  alien.vel.y = 4;
+  alien.vel.y = 55g;
 
   alien.bounciness = 1;
 
