@@ -11,6 +11,7 @@ function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
 AlienGroup = new Group();
+Alien2Group = new Group();
 world.gravity.y = 3;
 randNum = random(1, 10)
 wallLH  = new Sprite(0, 350, 8, 700, 'k');
@@ -71,10 +72,25 @@ for (i = 0; i < 15; i++) {
   Alien.friction = 0.25;
 
   AlienGroup.add(Alien);
-  6
+  AlienGroup.collides(ball_1, func2Call);
   
 }
+for (i = 0; i < 15; i++) {
 
+  Alien2 = new Sprite(150, 50, 5,5, 'd');
+
+  Alien2.vel.x = randNum;
+
+  Alien2.vel.y = randNum;
+
+  Alien2.bounciness = 1;
+
+  Alien2.friction = 0.25;
+
+  Alien2Group.add(Alien2);
+  Alien2Group.collides(Alien, func2Call);
+  
+}
 
 
 }
@@ -85,7 +101,7 @@ for (i = 0; i < 15; i++) {
 function draw() {
 	background('rgb(235, 95, 95)');
 
-	function func2Call(_ball_1, _ssss) {
+	function func2Call(Alien2, _ssss) {
 
 	// Delete the alien which was hit
 
