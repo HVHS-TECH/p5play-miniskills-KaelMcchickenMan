@@ -9,7 +9,7 @@
 /*******************************************************/
 function setup() {
 	console.log("setup: ");
-cnv = new Canvas(700, 700);2
+cnv = new Canvas(700, 700);
 AlienGroup = new Group();
 world.gravity.y = 3;
 randNum = random(1, 10)
@@ -87,11 +87,11 @@ function draw() {
 
 	function func2Call(_ball_1, _ssss) {
 
-// Delete the alien which was hit
+	// Delete the alien which was hit
 
-_ssss.remove();
+	_ssss.remove();
 
-}
+	}
 
 
 }
