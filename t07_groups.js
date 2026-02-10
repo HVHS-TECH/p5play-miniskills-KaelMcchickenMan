@@ -10,6 +10,7 @@
 function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
+AlienGroup = new Group();
 world.gravity.y = 3;
 randNum = random(1, 10)
 wallLH  = new Sprite(0, 350, 8, 700, 'k');
@@ -69,7 +70,7 @@ for (i = 0; i < 15; i++) {
 
   Alien.friction = 0.25;
 
-  
+  AlienGroup.add(Alien);
 }
 }
 	
