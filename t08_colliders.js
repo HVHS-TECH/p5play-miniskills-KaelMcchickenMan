@@ -91,17 +91,7 @@ for (i = 0; i < 15; i++) {
   Alien2Group.collides(Alien, func3Call);
   
 }
-
-
-}
-	
-/*******************************************************/
-// draw()
-/*******************************************************/
-function draw() {
-	background('rgb(235, 95, 95)');
-
-	function func2Call(Alien2, _ssss) {
+function func2Call(Alien2, _ssss) {
 
 	// Delete the alien which was hit
 
@@ -115,6 +105,16 @@ function func3Call(Alien, _ssss) {
 	_ssss.remove();
 
 	}
+
+}
+	
+/*******************************************************/
+// draw()
+/*******************************************************/
+function draw() {
+	background('rgb(235, 95, 95)');
+
+	
 
 }
 
