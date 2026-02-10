@@ -47,6 +47,7 @@ Tomato.bounciness = 0.96;
 Rectangle.bounciness = 0.96;
 Rectangle.rotationSpeed = 2;
 
+Circle.bounciness = 2;
 Rectangle.vel.x = 0.25;
 Rectangle.vel.y = 0.1;
 Circle.vel.x = 0.1;
