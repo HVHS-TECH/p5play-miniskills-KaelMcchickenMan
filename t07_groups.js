@@ -68,7 +68,7 @@ for (i = 0; i < 15; i++) {
   Alien.bounciness = 1;
 
   Alien.friction = 0;
-
+  alienGroup.add(Alien);
 }
 }
 	
