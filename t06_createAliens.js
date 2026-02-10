@@ -62,7 +62,7 @@ for (i = 0; i < Alien; i++) {
 
   alien.vel.x = 847;
 
-  alien.vel.y = 55g;
+  alien.vel.y = 55;
 
   alien.bounciness = 1;
 
