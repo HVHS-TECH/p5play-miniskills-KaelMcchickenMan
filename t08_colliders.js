@@ -87,7 +87,7 @@ for (i = 0; i < 15; i++) {
 
   ball_1.friction = 0.25;
 
-  ball_1Group.add(Alien);
+  ball_1Group.add(ball_1);
   ball_1Group.collides(ball_1, func2Call);
   
 }
