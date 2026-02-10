@@ -59,13 +59,13 @@ Rectangle.vel.x = 0.25;
 Rectangle.vel.y = 0.1;
 Circle.vel.x = 0.1;
 Circle.vel.y = 0.05;
-Alien2 = new Sprite(150, 50, 50,50, 'd');
+Alien2 = new Sprite(150, 50, 10,10, 'd');
 
   Alien2.vel.x = randNum;
 
   Alien2.vel.y = randNum;
 
-  Alien2.bounciness = 1;
+  Alien2.bounciness = 0;
 
   Alien2.friction = 0.25;
 
