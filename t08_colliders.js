@@ -91,14 +91,14 @@ for (i = 0; i < 15; i++) {
   Alien2Group.collides(Alien, func3Call);
   
 }
-function func2Call(Alien2, _ssss) {
+function func2Call(_Alien2, _ssss) {
 
 	// Delete the alien which was hit
 
 	_ssss.remove();
 
 	}
-function func3Call(Alien, _ssss) {
+function func3Call(_Alien, _ssss) {
 
 	// Delete the alien which was hit
 
