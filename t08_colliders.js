@@ -72,7 +72,7 @@ for (i = 0; i < 15; i++) {
   Alien.friction = 0.25;
 
   AlienGroup.add(Alien);
-  AlienGroup.collides(ball_1, func2Call);
+  AlienGroup.collides(Alien2, func2Call);
   
 }
 for (i = 0; i < 15; i++) {
