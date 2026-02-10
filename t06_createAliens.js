@@ -56,9 +56,9 @@ Rectangle.vel.x = 0.25;
 Rectangle.vel.y = 0.1;
 Circle.vel.x = 0.1;
 Circle.vel.y = 0.05;
-for (i = 0; i < Alien; i++) {
+for (i = 0; i < Alien5; i++) {
 
-  alien = new Sprite(Alien);
+  alien = new Sprite(Alien5);
 
   alien.vel.x = randNum = random(6, 600);
 
