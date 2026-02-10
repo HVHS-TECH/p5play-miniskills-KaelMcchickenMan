@@ -57,19 +57,7 @@ Rectangle.vel.x = 0.25;
 Rectangle.vel.y = 0.1;
 Circle.vel.x = 0.1;
 Circle.vel.y = 0.05;
-for (i = 0; i < Aliens; i++) {
 
-  alien = new Sprite(150, 50, 25,75, 'd');
-
-  alien.vel.x = randNum;
-
-  alien.vel.y = randNum;
-
-  alien.bounciness = 1;
-
-  alien.friction = 0;
-
-}
 }
 	
 /*******************************************************/
