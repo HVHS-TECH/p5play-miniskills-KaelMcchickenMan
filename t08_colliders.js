@@ -11,7 +11,6 @@ function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
 AlienGroup = new Group();
-ball_1Group = new Group();
 world.gravity.y = 3;
 randNum = random(1, 10)
 wallLH  = new Sprite(0, 350, 8, 700, 'k');
