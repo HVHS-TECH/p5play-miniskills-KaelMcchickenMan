@@ -88,10 +88,17 @@ for (i = 0; i < 15; i++) {
   ball_1.friction = 0.25;
 
   ball_1Group.add(ball_1);
-  ball_1Group.collides(ball_1, func2Call);
+  ball_1Group.collides(Alien, func3Call);
   
 }
 function func2Call(_ball_1, _ssss) {
+
+// Delete the alien which was hit
+
+_ssss.remove();
+
+}
+function func3Call(_Alien, _ssss) {
 
 // Delete the alien which was hit
 
