@@ -11,6 +11,7 @@ function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
 world.gravity.y = 3;
+randNum = random(6, 600)
 wallLH  = new Sprite(0, 350, 8, 700, 'k');
 
 wallLH.color = 'rgb(255, 32, 32)';
@@ -60,9 +61,9 @@ for (i = 0; i < Aliens; i++) {
 
   alien = new Sprite(150, 50, 25,75, 'd');
 
-  alien.vel.x = randNum = random(6, 600);
+  alien.vel.x = randNum;
 
-  alien.vel.y = randNum = random(6, 600);
+  alien.vel.y = randNum;
 
   alien.bounciness = 1;
 
