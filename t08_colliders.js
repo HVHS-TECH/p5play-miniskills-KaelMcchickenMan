@@ -11,6 +11,7 @@ function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
 AlienGroup = new Group();
+ball_1Group = new Group();
 world.gravity.y = 3;
 randNum = random(1, 10)
 wallLH  = new Sprite(0, 350, 8, 700, 'k');
@@ -69,6 +70,22 @@ for (i = 0; i < 15; i++) {
   Alien.bounciness = 1;
 
   Alien.friction = 0.25;
+
+  AlienGroup.add(Alien);
+  AlienGroup.collides(ball_1, func2Call);
+  
+}
+for (i = 0; i < 15; i++) {
+
+  ball_1 = new Sprite(150, 50, 5,5, 'd');
+
+  ball_1.vel.x = randNum;
+
+  ball_1.vel.y = randNum;
+
+  ball_1.bounciness = 1;
+
+  ball_1.friction = 0.25;
 
   AlienGroup.add(Alien);
   AlienGroup.collides(ball_1, func2Call);
