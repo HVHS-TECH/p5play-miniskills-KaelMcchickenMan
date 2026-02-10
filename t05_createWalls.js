@@ -17,7 +17,7 @@ wallLH.color = 'rgb(0, 0, 0)';
 
 wallRH  = new Sprite(700, 350, 8, 700, 'k');
 
-wallTop = new Sprite(0, 700/2, 700, 8, 'k');
+wallTop = new Sprite(8, 700/2, 700, 8, 'k');
 
 wallBot = new Sprite(350, 700, 700, 8, 'k');
 	Rectangle = new Sprite(99, 15, 25, 25);
