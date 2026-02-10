@@ -60,9 +60,9 @@ for (i = 0; i < Alien; i++) {
 
   alien = new Sprite(Alien);
 
-  alien.vel.x = 847;
+  alien.vel.x = randNum = random(6, 600);
 
-  alien.vel.y = 55;
+  alien.vel.y = randNum = random(6, 600);
 
   alien.bounciness = 1;
 
