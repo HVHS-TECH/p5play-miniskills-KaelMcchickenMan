@@ -75,13 +75,7 @@ for (i = 0; i < 15; i++) {
   
 }
 
-function func2Call(_ball_1, _ssss) {
 
-// Delete the alien which was hit
-
-_ssss.remove();
-
-}
 
 }
 	
@@ -90,7 +84,13 @@ _ssss.remove();
 /*******************************************************/
 function draw() {
 	background('rgb(235, 95, 95)');
+function func2Call(_ball_1, _ssss) {
 
+// Delete the alien which was hit
+
+_ssss.remove();
+
+}
 }
 
 /*******************************************************/
