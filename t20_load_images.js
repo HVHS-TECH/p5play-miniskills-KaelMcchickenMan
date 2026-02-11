@@ -9,7 +9,7 @@
 /*******************************************************/
 function preload() {
 
-  imgBG   = loadImage('assets/images/space.jfif');
+  imgBG  = loadImage('assets/images/space.jfif');
 
   imgFace = loadImage('assets/images/face.png');
 
@@ -18,8 +18,8 @@ function preload() {
 function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
-AlienGroup = new Group();
-Alien2Group = new Group();
+alienGroup = new Group();
+alien2Group = new Group();
 world.gravity.y = 3;
 randNum = random(1, 10)
 wallLH  = new Sprite(0, 350, 8, 700, 'k');
@@ -78,12 +78,11 @@ Alien2 = new Sprite(150, 50, 20,20, 'd');
   Alien2.friction = 0.25;
 
 Alien2.image = (imgFace);
-
-Alien2.resize(50, 50);
+imgFace.resize(50, 50);
 
 for (i = 0; i < 15; i++) {
 
-  Alien = new Sprite(500, 50, 5,5, 'd');
+  Alien = new Sprite(500, 50, 15,15, 'd');
 
   Alien.vel.x = randNum;
 
@@ -93,8 +92,8 @@ for (i = 0; i < 15; i++) {
 
   Alien.friction = 0.25;
 
-  AlienGroup.add(Alien);
-  AlienGroup.collides(Alien2, func2Call);
+  alienGroup.add(Alien);
+  alienGroup.collides(Alien2, func2Call);
   
 }
 
@@ -113,7 +112,6 @@ function func2Call(_ssss, _Alien2) {
 // draw()
 /*******************************************************/
 function draw() {
-	
 	background(imgBG); 
 }
 
