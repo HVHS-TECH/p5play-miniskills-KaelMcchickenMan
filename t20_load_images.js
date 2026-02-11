@@ -7,7 +7,13 @@
 /*******************************************************/
 // setup()
 /*******************************************************/
+function preload() {
 
+  imgBG   = loadImage('assets/images/space.jfif');
+
+  imgFace = loadImage('assets/images/face.png');
+
+}
 
 function setup() {
 	console.log("setup: ");
@@ -107,7 +113,7 @@ function func2Call(_ssss, _Alien2) {
 // draw()
 /*******************************************************/
 function draw() {
-	
+	background('rgb(235, 95, 95)');
 }
 
 /*******************************************************/
