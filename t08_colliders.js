@@ -78,7 +78,7 @@ for (i = 0; i < 15; i++) {
 
   Alien.vel.y = randNum;
 
-  Alien.bounciness = 0.2;
+  Alien.bounciness = 0.7;
 
   Alien.friction = 0.25;
 
