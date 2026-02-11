@@ -65,7 +65,7 @@ Alien2 = new Sprite(150, 50, 20,20, 'd');
 
   Alien2.vel.y = randNum;
 
-  Alien2.bounciness = 0;
+  Alien2.bounciness = 0.4;
 
   Alien2.friction = 0.25;
 
@@ -92,7 +92,6 @@ for (i = 0; i < 15; i++) {
 function func2Call(_ssss, _Alien2) {
 
 	// Delete the alien which was hit
-	alert("removed");
 	_ssss.remove();
 
 	}
