@@ -77,7 +77,7 @@ Alien2 = new Sprite(150, 50, 20,20, 'd');
 
   Alien2.friction = 0.25;
 
-Alien2.image = (face.png);
+Alien2.image = (imgFace);
 
 Alien2.resize(50, 50);
 
@@ -113,7 +113,8 @@ function func2Call(_ssss, _Alien2) {
 // draw()
 /*******************************************************/
 function draw() {
-	background('rgb(235, 95, 95)');
+	
+	background(imgBG); 
 }
 
 /*******************************************************/
