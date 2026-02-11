@@ -14,6 +14,7 @@ function preload() {
   imgFace = loadImage('assets/images/face.png');
 
 }
+
 function setup() {
 	console.log("setup: ");
 cnv = new Canvas(700, 700);
@@ -76,7 +77,7 @@ Alien2 = new Sprite(150, 50, 20,20, 'd');
 
   Alien2.friction = 0.25;
 
-Alien2.image = (imgFace);
+Alien2.image = (Face.png);
 
 Alien2.resize(50, 50);
 
