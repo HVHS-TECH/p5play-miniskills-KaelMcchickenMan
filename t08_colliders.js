@@ -65,10 +65,10 @@ Alien2 = new Sprite(150, 50, 10,10, 'd');
 
   Alien2.vel.y = randNum;
 
-  Alien2.bounciness = 0;
+  Alien2.bounciness = 0.4;
 
   Alien2.friction = 0.25;
-
+Alien2.collides(Alien, func2Call);
 
 for (i = 0; i < 15; i++) {
 
@@ -83,7 +83,7 @@ for (i = 0; i < 15; i++) {
   Alien.friction = 0.25;
 
   AlienGroup.add(Alien);
-  AlienGroup.collides(Alien2, func2Call);
+  
   
 }
 
