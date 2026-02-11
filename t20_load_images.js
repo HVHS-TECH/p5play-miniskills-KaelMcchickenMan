@@ -7,13 +7,7 @@
 /*******************************************************/
 // setup()
 /*******************************************************/
-function preload() {
 
-  imgBG   = loadImage('assets/images/space.jfif');
-
-  imgFace = loadImage('assets/images/face.png');
-
-}
 
 function setup() {
 	console.log("setup: ");
