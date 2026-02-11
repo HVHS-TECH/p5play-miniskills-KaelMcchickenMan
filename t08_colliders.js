@@ -65,7 +65,7 @@ Alien2 = new Sprite(150, 50, 20,20, 'd');
 
   Alien2.vel.y = randNum;
 
-  Alien2.bounciness = 0.4;
+  Alien2.bounciness = 0.9;
 
   Alien2.friction = 0.25;
 
