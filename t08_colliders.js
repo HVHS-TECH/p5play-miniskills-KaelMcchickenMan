@@ -89,7 +89,7 @@ for (i = 0; i < 15; i++) {
 
 
   
-function func2Call(_Alien2, _ssss) {
+function func2Call(_ssss, _Alien2) {
 
 	// Delete the alien which was hit
 	alert("removed");
