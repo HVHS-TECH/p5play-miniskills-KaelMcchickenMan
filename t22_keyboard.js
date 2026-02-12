@@ -40,7 +40,7 @@ Circle.roatationSpeed = Circle.rotationSpeed / 1.05;
 	Circle.vel.x = 3;
 	Circle.rotationSpeed = 5;
 	} 
-	if (kb.pressing ('up') && Circle.y <= 600) {
+	if (kb.pressing ('up') && Circle.y >= 625) {
 
 	Circle.vel.y = -25;
 	} 
